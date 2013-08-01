@@ -19,6 +19,20 @@
 		5A33F3E517A960460015BF2F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A33F3DC17A960460015BF2F /* ViewController.xib */; };
 		5A33F3E617A960460015BF2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F3DE17A960460015BF2F /* main.m */; };
 		5A33F3E717A960460015BF2F /* OctoKitSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A33F3DF17A960460015BF2F /* OctoKitSample-Info.plist */; };
+		5A33F43017AB1FE40015BF2F /* SDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F42B17AB1FE40015BF2F /* SDLoginViewController.m */; };
+		5A33F43117AB1FE40015BF2F /* SDPasswordResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F42D17AB1FE40015BF2F /* SDPasswordResetViewController.m */; };
+		5A33F43217AB1FE40015BF2F /* SDSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F42F17AB1FE40015BF2F /* SDSignUpViewController.m */; };
+		5A33F44717AB20800015BF2F /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A33F43517AB20800015BF2F /* gray.png */; };
+		5A33F44817AB20800015BF2F /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A33F43617AB20800015BF2F /* green.png */; };
+		5A33F44917AB20800015BF2F /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A33F43717AB20800015BF2F /* red.png */; };
+		5A33F44A17AB20800015BF2F /* SDFooterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F43917AB20800015BF2F /* SDFooterButtonView.m */; };
+		5A33F44B17AB20800015BF2F /* SDPatternCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F43C17AB20800015BF2F /* SDPatternCell.m */; };
+		5A33F44C17AB20800015BF2F /* SDPlaceholderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F43E17AB20800015BF2F /* SDPlaceholderCell.m */; };
+		5A33F44D17AB20800015BF2F /* SDRoundedImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F44017AB20800015BF2F /* SDRoundedImageViewCell.m */; };
+		5A33F44E17AB20800015BF2F /* SDSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F44217AB20800015BF2F /* SDSwitchCell.m */; };
+		5A33F44F17AB20800015BF2F /* SDTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F44417AB20800015BF2F /* SDTextFieldCell.m */; };
+		5A33F45017AB20800015BF2F /* SDTextFooterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F44617AB20800015BF2F /* SDTextFooterButtonView.m */; };
+		F13EF5EA3FB24F93904AA0FD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFEE59C2D574642A29DB6C8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +52,33 @@
 		5A33F3DE17A960460015BF2F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		5A33F3DF17A960460015BF2F /* OctoKitSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OctoKitSample-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5A33F3E017A960460015BF2F /* OctoKitSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OctoKitSample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		5A33F42917AB1FE40015BF2F /* SDLoginKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLoginKit.h; sourceTree = "<group>"; };
+		5A33F42A17AB1FE40015BF2F /* SDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLoginViewController.h; sourceTree = "<group>"; };
+		5A33F42B17AB1FE40015BF2F /* SDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLoginViewController.m; sourceTree = "<group>"; };
+		5A33F42C17AB1FE40015BF2F /* SDPasswordResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPasswordResetViewController.h; sourceTree = "<group>"; };
+		5A33F42D17AB1FE40015BF2F /* SDPasswordResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPasswordResetViewController.m; sourceTree = "<group>"; };
+		5A33F42E17AB1FE40015BF2F /* SDSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSignUpViewController.h; sourceTree = "<group>"; };
+		5A33F42F17AB1FE40015BF2F /* SDSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSignUpViewController.m; sourceTree = "<group>"; };
+		5A33F43517AB20800015BF2F /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		5A33F43617AB20800015BF2F /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		5A33F43717AB20800015BF2F /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		5A33F43817AB20800015BF2F /* SDFooterButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFooterButtonView.h; sourceTree = "<group>"; };
+		5A33F43917AB20800015BF2F /* SDFooterButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFooterButtonView.m; sourceTree = "<group>"; };
+		5A33F43A17AB20800015BF2F /* SDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKit.h; sourceTree = "<group>"; };
+		5A33F43B17AB20800015BF2F /* SDPatternCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPatternCell.h; sourceTree = "<group>"; };
+		5A33F43C17AB20800015BF2F /* SDPatternCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPatternCell.m; sourceTree = "<group>"; };
+		5A33F43D17AB20800015BF2F /* SDPlaceholderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPlaceholderCell.h; sourceTree = "<group>"; };
+		5A33F43E17AB20800015BF2F /* SDPlaceholderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPlaceholderCell.m; sourceTree = "<group>"; };
+		5A33F43F17AB20800015BF2F /* SDRoundedImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRoundedImageViewCell.h; sourceTree = "<group>"; };
+		5A33F44017AB20800015BF2F /* SDRoundedImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRoundedImageViewCell.m; sourceTree = "<group>"; };
+		5A33F44117AB20800015BF2F /* SDSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSwitchCell.h; sourceTree = "<group>"; };
+		5A33F44217AB20800015BF2F /* SDSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSwitchCell.m; sourceTree = "<group>"; };
+		5A33F44317AB20800015BF2F /* SDTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTextFieldCell.h; sourceTree = "<group>"; };
+		5A33F44417AB20800015BF2F /* SDTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTextFieldCell.m; sourceTree = "<group>"; };
+		5A33F44517AB20800015BF2F /* SDTextFooterButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTextFooterButtonView.h; sourceTree = "<group>"; };
+		5A33F44617AB20800015BF2F /* SDTextFooterButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTextFooterButtonView.m; sourceTree = "<group>"; };
+		AFFEE59C2D574642A29DB6C8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF738125A80940E881385FFA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +89,7 @@
 				5A33F3AE17A95F0D0015BF2F /* UIKit.framework in Frameworks */,
 				5A33F3B017A95F0D0015BF2F /* Foundation.framework in Frameworks */,
 				5A33F3B217A95F0D0015BF2F /* CoreGraphics.framework in Frameworks */,
+				F13EF5EA3FB24F93904AA0FD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +102,7 @@
 				5A33F3B317A95F0D0015BF2F /* OctoKitSample */,
 				5A33F3AC17A95F0D0015BF2F /* Frameworks */,
 				5A33F3AB17A95F0D0015BF2F /* Products */,
+				DF738125A80940E881385FFA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +120,7 @@
 				5A33F3AD17A95F0D0015BF2F /* UIKit.framework */,
 				5A33F3AF17A95F0D0015BF2F /* Foundation.framework */,
 				5A33F3B117A95F0D0015BF2F /* CoreGraphics.framework */,
+				AFFEE59C2D574642A29DB6C8 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,6 +128,8 @@
 		5A33F3B317A95F0D0015BF2F /* OctoKitSample */ = {
 			isa = PBXGroup;
 			children = (
+				5A33F43317AB207F0015BF2F /* SDKit */,
+				5A33F42817AB1FE30015BF2F /* SDLoginKit */,
 				5A33F3D017A960010015BF2F /* AppDelegate.h */,
 				5A33F3D117A960010015BF2F /* AppDelegate.m */,
 				5A33F3D217A960010015BF2F /* ViewController.h */,
@@ -116,6 +162,53 @@
 			path = en.lproj;
 			sourceTree = SOURCE_ROOT;
 		};
+		5A33F42817AB1FE30015BF2F /* SDLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				5A33F42917AB1FE40015BF2F /* SDLoginKit.h */,
+				5A33F42A17AB1FE40015BF2F /* SDLoginViewController.h */,
+				5A33F42B17AB1FE40015BF2F /* SDLoginViewController.m */,
+				5A33F42C17AB1FE40015BF2F /* SDPasswordResetViewController.h */,
+				5A33F42D17AB1FE40015BF2F /* SDPasswordResetViewController.m */,
+				5A33F42E17AB1FE40015BF2F /* SDSignUpViewController.h */,
+				5A33F42F17AB1FE40015BF2F /* SDSignUpViewController.m */,
+			);
+			path = SDLoginKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		5A33F43317AB207F0015BF2F /* SDKit */ = {
+			isa = PBXGroup;
+			children = (
+				5A33F43417AB20800015BF2F /* Assets */,
+				5A33F43817AB20800015BF2F /* SDFooterButtonView.h */,
+				5A33F43917AB20800015BF2F /* SDFooterButtonView.m */,
+				5A33F43A17AB20800015BF2F /* SDKit.h */,
+				5A33F43B17AB20800015BF2F /* SDPatternCell.h */,
+				5A33F43C17AB20800015BF2F /* SDPatternCell.m */,
+				5A33F43D17AB20800015BF2F /* SDPlaceholderCell.h */,
+				5A33F43E17AB20800015BF2F /* SDPlaceholderCell.m */,
+				5A33F43F17AB20800015BF2F /* SDRoundedImageViewCell.h */,
+				5A33F44017AB20800015BF2F /* SDRoundedImageViewCell.m */,
+				5A33F44117AB20800015BF2F /* SDSwitchCell.h */,
+				5A33F44217AB20800015BF2F /* SDSwitchCell.m */,
+				5A33F44317AB20800015BF2F /* SDTextFieldCell.h */,
+				5A33F44417AB20800015BF2F /* SDTextFieldCell.m */,
+				5A33F44517AB20800015BF2F /* SDTextFooterButtonView.h */,
+				5A33F44617AB20800015BF2F /* SDTextFooterButtonView.m */,
+			);
+			path = SDKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		5A33F43417AB20800015BF2F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5A33F43517AB20800015BF2F /* gray.png */,
+				5A33F43617AB20800015BF2F /* green.png */,
+				5A33F43717AB20800015BF2F /* red.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A33F3CD17A95F0D0015BF2F /* Build configuration list for PBXNativeTarget "OctoKitSample" */;
 			buildPhases = (
+				AEB6A4B0C3E44E6CB721B1CE /* Check Pods Manifest.lock */,
 				5A33F3A617A95F0D0015BF2F /* Sources */,
 				5A33F3A717A95F0D0015BF2F /* Frameworks */,
 				5A33F3A817A95F0D0015BF2F /* Resources */,
+				B82EAFC1EE394B08899E3C47 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,10 +268,46 @@
 				5A33F3E417A960460015BF2F /* InfoPlist.strings in Resources */,
 				5A33F3E517A960460015BF2F /* ViewController.xib in Resources */,
 				5A33F3E717A960460015BF2F /* OctoKitSample-Info.plist in Resources */,
+				5A33F44717AB20800015BF2F /* gray.png in Resources */,
+				5A33F44817AB20800015BF2F /* green.png in Resources */,
+				5A33F44917AB20800015BF2F /* red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEB6A4B0C3E44E6CB721B1CE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B82EAFC1EE394B08899E3C47 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A33F3A617A95F0D0015BF2F /* Sources */ = {
@@ -186,6 +317,16 @@
 				5A33F3D417A960010015BF2F /* AppDelegate.m in Sources */,
 				5A33F3D517A960010015BF2F /* ViewController.m in Sources */,
 				5A33F3E617A960460015BF2F /* main.m in Sources */,
+				5A33F43017AB1FE40015BF2F /* SDLoginViewController.m in Sources */,
+				5A33F43117AB1FE40015BF2F /* SDPasswordResetViewController.m in Sources */,
+				5A33F43217AB1FE40015BF2F /* SDSignUpViewController.m in Sources */,
+				5A33F44A17AB20800015BF2F /* SDFooterButtonView.m in Sources */,
+				5A33F44B17AB20800015BF2F /* SDPatternCell.m in Sources */,
+				5A33F44C17AB20800015BF2F /* SDPlaceholderCell.m in Sources */,
+				5A33F44D17AB20800015BF2F /* SDRoundedImageViewCell.m in Sources */,
+				5A33F44E17AB20800015BF2F /* SDSwitchCell.m in Sources */,
+				5A33F44F17AB20800015BF2F /* SDTextFieldCell.m in Sources */,
+				5A33F45017AB20800015BF2F /* SDTextFooterButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +410,7 @@
 		};
 		5A33F3CE17A95F0D0015BF2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF738125A80940E881385FFA /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OctoKitSample-Prefix.pch";
@@ -280,6 +422,7 @@
 		};
 		5A33F3CF17A95F0D0015BF2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF738125A80940E881385FFA /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OctoKitSample-Prefix.pch";
@@ -308,6 +451,7 @@
 				5A33F3CF17A95F0D0015BF2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
