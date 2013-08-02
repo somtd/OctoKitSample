@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "OctoKit.h"
 
 @implementation AppDelegate
 
@@ -37,6 +38,15 @@
 #pragma mark - SDLoginViewControllerDelegate
 
 - (void)loginViewController:(SDLoginViewController*)loginViewController authenticateWithCredential:(NSURLCredential*)credential{
+    
+    OCTUser *user = [OCTUser userWithLogin:@"somtd" server:OCTServer.dotComServer];
+	OCTClient *client = [OCTClient unauthenticatedClientWithUser:user];
+    
+	[[[client fetchUserRepositories] logAll] subscribeNext:^(id subscribe) {
+		dispatch_async(dispatch_get_main_queue(), ^{
+			NSLog(@"info:%@",[subscribe description]);
+		});
+	}];
     
     //if success
     [loginViewController loginViewControllerDidAuthenticate];
