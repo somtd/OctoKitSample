@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SDLoginKit.h"
 
 @interface ViewController : UIViewController
+<SDLoginViewControllerDelelgate,
+ SDSignUpViewControllerDelegate,
+ SDPasswordResetViewControllerDelegate>
 
 @end

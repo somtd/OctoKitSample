@@ -7,9 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
-#import "OctoKit.h"
+
 
 @implementation AppDelegate
 
@@ -20,65 +19,9 @@
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    
-    //Check credential
-    BOOL isLogin = NO;
-    if (!isLogin) {
-        //Add SDLoginKit
-        SDLoginViewController *loginViewController = [[SDLoginViewController alloc] init];
-        [loginViewController setDelegate:self];
-        [loginViewController setLogoImage:[UIImage imageNamed:@"logo"]];
-        UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
-        [self.viewController presentViewController:navController animated:YES completion:nil];
-    }
-    
+        
     return YES;
 }
-
-#pragma mark - SDLoginViewControllerDelegate
-
-- (void)loginViewController:(SDLoginViewController*)loginViewController authenticateWithCredential:(NSURLCredential*)credential{
-    
-    OCTUser *user = [OCTUser userWithLogin:@"somtd" server:OCTServer.dotComServer];
-	OCTClient *client = [OCTClient unauthenticatedClientWithUser:user];
-    
-	[[[client fetchUserRepositories] logAll] subscribeNext:^(id subscribe) {
-		dispatch_async(dispatch_get_main_queue(), ^{
-			NSLog(@"info:%@",[subscribe description]);
-		});
-	}];
-    
-    //if success
-    [loginViewController loginViewControllerDidAuthenticate];
-    
-    //if failure
-    //Pass Error with userInfoDictionary key set to message
-    // NSString *message = @"Don't Forget to override authenticateWithCredential";
-    //NSDictionary *userInfoDictionary = [[NSDictionary alloc] initWithObjectsAndKeys:message, NSLocalizedRecoverySuggestionErrorKey , nil];
-    //[loginViewController loginViewControllerFailedToAuthenticateWithError: [NSError errorWithDomain:@"SDLoginKit" code:nil userInfo:userInfoDictionary]];
-    
-}
-
-- (void)signUpViewController:(SDSignUpViewController*)signUpViewController signUpWithCredentials:(NSDictionary*)credentials{
-    
-    //if success
-    [signUpViewController signUpViewControllerDidSignUp];
-    
-    
-    //if failure
-    //Pass Error with userInfoDictionary key set to message
-    // NSString *message = @"Don't Forget to override signUpWithCredentials";
-    //NSDictionary *userInfoDictionary = [[NSDictionary alloc] initWithObjectsAndKeys:message, NSLocalizedRecoverySuggestionErrorKey , nil];
-    //[loginViewController loginViewControllerFailedToAuthenticateWithError: [NSError errorWithDomain:@"SDLoginKit" code:nil userInfo:userInfoDictionary]];
-    
-}
-
-- (void)passwordResetViewController:(SDPasswordResetViewController *)passwordResetViewController resetPasswordWithEmail:(NSString *)email{
-    
-    [passwordResetViewController passwordResetViewControllerDidResetPassword];
-    
-}
-
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
